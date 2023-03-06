@@ -1,6 +1,7 @@
 import React from 'react';
 import SearchIcon from '@mui/icons-material/Search';
 import KeyboardVoiceIcon from '@mui/icons-material/KeyboardVoice';
+import './Search.css';
 function Search() {
   return (
     <div className="search">
