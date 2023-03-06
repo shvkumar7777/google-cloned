@@ -1,9 +1,9 @@
 import React from 'react';
 import './Home.css';
-import SearchIcon from '@mui/icons-material/Search';
-import KeyboardVoiceIcon from '@mui/icons-material/KeyboardVoice';
 import { Link } from 'react-router-dom';
-
+import AppsIcon from '@mui/icons-material/Apps';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import Search from '../components/Search'
 function Home() {
   return (
     <div className="home">
@@ -20,11 +20,21 @@ function Home() {
           {/* Images Link*/}
           <Link to="/about">Images</Link>
           {/* Gallery icon */}
+          <AppsIcon />
           {/* Progile Avatar */}
+          <AccountCircleIcon />
         </div>
       </div>
 
-      <div className="home__body"> this is body</div>
+      <div className="home__body">
+        <img
+          src="https://www.freepnglogos.com/uploads/google-logo-png/file-google-logo-svg-wikimedia-commons-23.png"
+          alt="file google logo svg wikimedia commons"
+        />
+        <div className='home__inputSearchContainer'> 
+          <Search/>
+        </div>
+      </div>
     </div>
   );
 }

@@ -7,6 +7,7 @@
 .home__header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 1rem 1.5rem;
 }
 
@@ -20,5 +21,24 @@
 .header__header a:hover {
   text-decoration: underline;
 }
-.header__left {
+.header__right {
+  display: flex;
+  align-items: center;
+  min-width: 13vw;
+  justify-content: space-between;
+}
+
+.header__right > .MuiSvgIcon-root {
+  margin-right: 10px;
+}
+
+.home__body{
+   flex: 1;
+   display: flex;
+   margin-top: 10%;
+   flex-direction: column;
+}
+.home__body >img{
+  object-fit: contain;
+  height: 100px;
 }
