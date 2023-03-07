@@ -32,7 +32,7 @@ function Home() {
           alt="file google logo svg wikimedia commons"
         />
         <div className="home__inputSearchContainer">
-          <Search hiddenSearchButtons />
+          <Search />
         </div>
       </div>
     </div>
