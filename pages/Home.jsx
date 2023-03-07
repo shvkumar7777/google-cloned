@@ -3,7 +3,7 @@ import './Home.css';
 import { Link } from 'react-router-dom';
 import AppsIcon from '@mui/icons-material/Apps';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-import Search from '../components/Search'
+import Search from '../components/Search';
 function Home() {
   return (
     <div className="home">
@@ -31,8 +31,8 @@ function Home() {
           src="https://www.freepnglogos.com/uploads/google-logo-png/file-google-logo-svg-wikimedia-commons-23.png"
           alt="file google logo svg wikimedia commons"
         />
-        <div className='home__inputSearchContainer'> 
-          <Search/>
+        <div className="home__inputSearchContainer">
+          <Search hiddenSearchButtons />
         </div>
       </div>
     </div>
